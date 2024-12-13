@@ -43,7 +43,7 @@ function rotateImage($imagePath) {
     return $rotatedImagePath;  // Return the path of the rotated image
 }
 
-// Function to send email with an attachment
+// Function to send email with an 
 function sendeMail($email, $subject, $message, $image_path) {
     $mail = new PHPMailer(true);
 
