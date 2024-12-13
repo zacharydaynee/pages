@@ -1,0 +1,4 @@
+open ftp://u546582562.smartsentry:FTP@smart-sentry$100@ftp.myhost14.com -passive=on
+put "C:\path\to\data\*.csv" /remote/path/
+close
+exit

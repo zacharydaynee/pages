@@ -1,0 +1,176 @@
+::-webkit-scrollbar {
+      width: 8px;
+
+    }
+
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 2px white;
+      border-radius: 15px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #2c3728;
+
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #2c3728;
+    }
+
+    .toggle-container {
+      display: inline-block;
+    }
+
+    .toggle-checkbox {
+      display: none;
+    }
+
+    .toggle-label {
+      position: relative;
+      width: 60px;
+      height: 30px;
+      background-color: #ccc;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .toggle-switch {
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      width: 24px;
+      height: 24px;
+      background-color: white;
+      border-radius: 50%;
+      transition: transform 0.3s ease;
+    }
+
+    .toggle-checkbox:checked+.toggle-label {
+      background-color: #283728;
+    }
+
+    .toggle-checkbox:checked+.toggle-label .toggle-switch {
+      transform: translateX(30px);
+    }
+
+    .back-to-top svg {
+      fill: white;
+      /* Change this to your desired color */
+      width: 18px;
+      /* Width of the icon */
+      height: 18px;
+      /* Height of the icon */
+    }
+
+    .back-to-top {
+      display: inline-block;
+      /* Ensure it's inline-block for padding and background */
+      background-color: #283728;
+      /* Background color */
+      border-radius: 3px;
+      /* Optional: rounded corners if desired */
+      width: 40px;
+      /* Width of the square */
+      height: 40px;
+      /* Height of the square */
+      text-align: center;
+      /* Center align SVG */
+      line-height: 50px;
+      /* Center SVG vertically */
+      transition: background-color 0.3s;
+      /* Smooth transition for hover effect */
+    }
+
+    .back-to-top:hover {
+      background-color: #4C6057;
+      /* Darker shade for hover effect */
+    }
+
+    .vimeo-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100vh;
+      z-index: -1;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .vimeo-wrapper iframe {
+      width: 100vw;
+      height: 56.25vw;
+      /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+      height: 100vh;
+      max-height: 100%;
+      overflow: hidden;
+      min-width: 177.77vh;
+      /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .vimeo-wrapper iframe {
+      width: 100vw;
+      height: 300vw;
+      overflow: hidden;
+      min-width: 300vh;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+
+
+    /* Set the border radius for accordion items */
+    .accordion-item {
+      border: 1px solid #283728;
+      /* Existing border style */
+      border-radius: 10px;
+      /* Change this value for desired roundness */
+      margin-bottom: 10px;
+      /* Optional: adds spacing between accordion items */
+    }
+
+    /* Set the border radius for accordion headers */
+    .accordion-header {
+      border-radius: 10px 10px 0 0;
+      /* Round the top corners */
+      background: #283728;
+      /* Match with your background */
+    }
+
+    /* Set the border radius for accordion body */
+    .accordion-collapse {
+      border-radius: 0 0 10px 10px;
+      /* Round the bottom corners */
+      overflow: hidden;
+      /* Optional: to ensure rounded corners are respected */
+    }
+
+    /* Add this in your CSS file */
+    .search-bar {
+      margin-bottom: 10px;
+      padding: 12px;
+      width: 20%;
+      font-size: 14px;
+      border: 2px solid #283728;
+      border-radius: 5px;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    .highlight-red {
+      font-weight: bold !important;
+    }
+
+    .bold-text {
+      font-weight: bold !important;
+    }
+
+

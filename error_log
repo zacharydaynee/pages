@@ -1,0 +1,67 @@
+
+[08-Sep-2023 08:33:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/vpdwcrvu/portal.pms.net.pk/pages/backend.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/backend.php on line 17
+[08-Sep-2023 11:14:09 UTC] PHP Warning:  include(alert.php): failed to open stream: No such file or directory in /home/vpdwcrvu/portal.pms.net.pk/pages/reg_department.php on line 20
+[08-Sep-2023 11:14:09 UTC] PHP Warning:  include(alert.php): failed to open stream: No such file or directory in /home/vpdwcrvu/portal.pms.net.pk/pages/reg_department.php on line 20
+[08-Sep-2023 11:14:09 UTC] PHP Warning:  include(): Failed opening 'alert.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/vpdwcrvu/portal.pms.net.pk/pages/reg_department.php on line 20
+[08-Sep-2023 11:14:13 UTC] PHP Warning:  include(alert.php): failed to open stream: No such file or directory in /home/vpdwcrvu/portal.pms.net.pk/pages/reg_department.php on line 20
+[08-Sep-2023 11:14:13 UTC] PHP Warning:  include(alert.php): failed to open stream: No such file or directory in /home/vpdwcrvu/portal.pms.net.pk/pages/reg_department.php on line 20
+[08-Sep-2023 11:14:13 UTC] PHP Warning:  include(): Failed opening 'alert.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/vpdwcrvu/portal.pms.net.pk/pages/reg_department.php on line 20
+[08-Sep-2023 12:24:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_department.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_department.php on line 48
+[08-Sep-2023 12:24:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_department.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_department.php on line 48
+[15-Sep-2023 07:55:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/vpdwcrvu/portal.pms.net.pk/pages/backend.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/backend.php on line 6
+[19-Sep-2023 11:07:12 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php on line 62
+[19-Sep-2023 11:07:57 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php on line 62
+[19-Sep-2023 11:09:01 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php on line 62
+[19-Sep-2023 11:09:53 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php on line 62
+[19-Sep-2023 11:22:59 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php on line 62
+[19-Sep-2023 11:31:13 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php on line 62
+[19-Sep-2023 11:31:49 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php on line 62
+[19-Sep-2023 12:57:40 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php on line 62
+[19-Sep-2023 12:57:51 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php on line 62
+[19-Sep-2023 12:58:14 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php on line 62
+[19-Sep-2023 12:59:43 Asia/Karachi] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on array in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/vpdwcrvu/portal.pms.net.pk/pages/manage_customers.php on line 62
